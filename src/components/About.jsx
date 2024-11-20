@@ -1,6 +1,5 @@
 import {motion} from "framer-motion"
 import {ABOUT_CONTENT} from "../constants"
-import { section } from "framer-motion/client"
 
 const textVariants ={
   hidden: {opacity: 0, y:50},

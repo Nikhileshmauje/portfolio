@@ -1,5 +1,4 @@
 import { motion } from "framer-motion"
-import { clipPath, section } from "framer-motion/client"
 import { HERO_CONTENT } from "../constants";
 import profile from "../assets/Profile-pic.jpg"
 
