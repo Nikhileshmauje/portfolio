@@ -32,9 +32,9 @@ const iconVariants ={
 const Contact = () => {
   return (
     <section className="h-screen flex flex-col justify-center px-4 md:px-10 overflow-x-hidden" id="contact">
-    <h2 className="text-4xl md:text-6xl font-medium tracking-tight mb-10">Contact</h2>
-    <div className="h-1 w-20 bg-white mb-8"></div>
-    <motion.h3 className="text-6xl md:text-8xl leading-none" initial="hidden" whileInView="visible" custom={0.4} variants={textVariants}>
+    <h2 className="text-4xl md:text-6xl font-medium tracking-tight mb-7">Contact</h2>
+    <div className="h-1 w-20 bg-white mb-7"></div>
+    <motion.h3 className="text-4xl md:text-6xl leading-none" initial="hidden" whileInView="visible" custom={0.4} variants={textVariants}>
         {CONTACT_CONTENT.headline}
     </motion.h3>
     <motion.p className="text-lg md:text-2xl mt-6 max-w-3xl" initial="hidden" whileInView="visible" custom={0.6} variants={textVariants}>
