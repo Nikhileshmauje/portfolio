@@ -44,7 +44,7 @@ const Hero = () => {
                 variants={textVariants}>{HERO_CONTENT.description}
                 </motion.p>
                 <motion.a className="bg-stone-50 text-stone-900 p-3 lg:p-4 mt-8 inline-block rounded-2xl cursor-pointer"
-                download="resume.pdf"
+                download="Nikhilesh Resume.pdf"
                 target="_blank"
                 variants={textVariants}
                 href={resume}>

@@ -21,7 +21,7 @@ export const HERO_CONTENT = {
   description:
     "I’m currently focused on enhancing my skills, building meaningful connections with like-minded individuals, and exploring opportunities to contribute to impactful digital solutions.",
   resumeLinkText: "Download Resume",
-  resumeLink: "resume.pdf",
+  resumeLink: "Nikhilesh Resume.pdf",
 };
 
 export const PROJECTS = [
@@ -76,8 +76,8 @@ export const EDUCATION = [
     title: "G.H Raisoni College of Engineering, Nagpur",
     location: "Bachelor of Technology",
     description: [
-      "Current CGPA: 8.33",
-      "Achievement: Finalist in college coding event CODE-O-QUICK",
+      "Current CGPA: 8.41",
+      "Achievement: Runner-up in college coding event CODE-O-QUICK",
     ],
   },
   {
