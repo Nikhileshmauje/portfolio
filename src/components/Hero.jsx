@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { HERO_CONTENT } from "../constants";
 import profile from "../assets/Profile-pic.jpg"
-import resume from "../assets/resume.pdf"
+import resume from "../assets/Nikhilesh Resume.pdf"
 
 const textVariants ={
     hidden: {opacity: 0, y: 50},
