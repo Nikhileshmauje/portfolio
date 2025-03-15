@@ -17,7 +17,7 @@ export const LINKS = [
 export const HERO_CONTENT = {
   greeting: "Hey there! 🖐️",
   introduction:
-    "I’m Nikhilesh Mauje, a creative frontend developer, crafting immersive and intuitive web experiences.",
+    "I’m Nikhilesh Mauje, a creative full stack developer, crafting immersive and intuitive web experiences.",
   description:
     "I’m currently focused on enhancing my skills, building meaningful connections with like-minded individuals, and exploring opportunities to contribute to impactful digital solutions.",
   resumeLinkText: "Download Resume",
@@ -65,7 +65,7 @@ export const PROJECTS = [
 
 export const ABOUT_CONTENT = {
   paragraphs: [
-    "I am a dedicated frontend developer with a passion for building modern web applications that are both functional and aesthetically pleasing. Over the years, I have worked on numerous projects ranging from React frontendapplications to full stack Applications, always ensuring high performance and seamless user experiences.",
+    "I am a dedicated frontend developer with a passion for building modern web applications that are both functional and aesthetically pleasing. Over the years, I have worked on numerous projects ranging from React frontend applications to full stack Applications, always ensuring high performance and seamless user experiences.",
     "I specialize in using technologies like React, Next.js, and Tailwind CSS to create responsive and scalable interfaces. My focus is on writing clean, maintainable code while collaborating with cross-functional teams to deliver projects that meet both business goals and user needs. I thrive in environments that challenge me to continuously learn and grow.",
   ],
 };
@@ -74,7 +74,7 @@ export const EDUCATION = [
   {
     yearRange: "2022 — 2026",
     title: "G.H Raisoni College of Engineering, Nagpur",
-    location: "Bachelor of Technology",
+    location: "Bachelor of Technology - Computer Science and Engineering",
     description: [
       "Current CGPA: 8.41",
       "Achievement: Runner-up in college coding event CODE-O-QUICK",
