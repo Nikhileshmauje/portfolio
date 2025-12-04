@@ -66,8 +66,9 @@ export const PROJECTS = [
 
 export const ABOUT_CONTENT = {
   paragraphs: [
-    "I am a dedicated frontend developer with a passion for building modern web applications that are both functional and aesthetically pleasing. Over the years, I have worked on numerous projects ranging from React frontend applications to full stack Applications, always ensuring high performance and seamless user experiences.",
-    "I specialize in using technologies like React, Next.js, and Tailwind CSS to create responsive and scalable interfaces. My focus is on writing clean, maintainable code while collaborating with cross-functional teams to deliver projects that meet both business goals and user needs. I thrive in environments that challenge me to continuously learn and grow.",
+    "I am a Full-Stack and DevOps-focused engineer with hands-on experience in building distributed systems, containerized applications, and modern CI/CD automation. I work primarily with Node.js, Docker, RabbitMQ, MongoDB, and cloud services to design secure, scalable backend architectures.",
+    "My strengths lie in microservices development, event-driven communication, API design, and deployment pipelines. I enjoy breaking complex systems into modular services, optimizing performance, and ensuring smooth developer workflows through automation and container orchestration.",
+    "I have built production-ready microservice backends, integrated message brokers for asynchronous processing, and deployed full-stack applications on cloud platforms using GitHub Actions, Docker, and modern DevOps tools. Constant learning, clean architecture, and reliability are core principles in my work.",
   ],
 };
 
