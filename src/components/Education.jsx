@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import { EXPERIENCE } from "../constants";
+import { EDUCATION } from "../constants";
 
-const Experience = () => {
+const Education = () => {
   const containerVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: {
@@ -21,25 +21,25 @@ const Experience = () => {
   };
 
   return (
-    <section className="px-6 py-10" id="experience">
+    <section className="px-6 py-10" id="education">
       <h2 className="text-4xl md:text-6xl font-medium tracking-tight mb-10">
-        Work Experience
+        Education
       </h2>
       <div className="h-1 w-20 mb-8 bg-white"></div>
       <motion.div className="space-y-10" initial="hidden" whileInView="visible" viewport={{once:true, amount: 0.3}}
       variants={containerVariants}>
-        {EXPERIENCE.map((experience, index)=>(
+        {EDUCATION.map((education, index)=>(
             <motion.div key={index}
             variants={childVariants}>
                 <div className="flex flex-col md:flex-row md:justify-between">
                     <div className="text-xl md:w-1/4 md:mb-0 p-4 mt-4">
-                        {experience.yearRange}
+                        {education.yearRange}
                     </div>
                     <div className="m-10 md:w-3/4">
                         <div className="max-w-3xl backdrop-blur-3xl p-4 bg-stone-600/10 rounded-lg">
-                            <h2 className="text-xl mb-2">{experience.title}</h2>
-                            <p className="mb-4 text-sm italic">{experience.location}</p>
-                            <ul className="list-disc list-inside space-y-2">{experience.description.map((desc,index)=>(
+                            <h2 className="text-xl mb-2">{education.title}</h2>
+                            <p className="mb-4 text-sm italic">{education.location}</p>
+                            <ul className="list-disc list-inside space-y-2">{education.description.map((desc,index)=>(
                                 <li key={index}>{desc}</li>
                             ))}</ul>
                         </div>
@@ -52,4 +52,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Education;

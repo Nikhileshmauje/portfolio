@@ -10,8 +10,9 @@ import microservice from "../assets/microservices.png";
 export const LINKS = [
   { href: "#work", label: "Projects" },
   { href: "#skills", label: "Skills" },
+  { href: "#experience", label: "Experience"},
   { href: "#about", label: "About" },
-  { href: "#experience", label: "Education" },
+  { href: "#education", label: "Education" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -101,6 +102,20 @@ export const EDUCATION = [
     ],
   },
 ];
+
+export const EXPERIENCE = [
+  {
+    yearRange: "Jun 2025 — Jul 2025",
+    title: "Web Development Intern — Pinnacle Labs (Remote)",
+    location: "Frontend & API Integration",
+    description: [
+      "Built functional web apps such as a News App and Weather App using HTML, CSS, JavaScript, and public APIs.",
+      "Worked with Git/GitHub, implemented API integrations, and debugged common UI and data-fetching issues.",
+      "Enhanced practical understanding of frontend workflows and rapid prototyping in a real project environment.",
+    ],
+  },
+];
+
 
 // export const TESTIMONIALS = [
 //   {
