@@ -4,6 +4,7 @@ import keeper from "../assets/keeper.webp";
 import weather from "../assets/weather.webp";
 import tictactoe from "../assets/tictactoe.webp";
 import todo from "../assets/todo.webp";
+import microservice from "../assets/microservices.png";
 
 
 export const LINKS = [
@@ -26,10 +27,16 @@ export const HERO_CONTENT = {
 
 export const PROJECTS = [
   {
+    name: "Task Management App - Microservices Backend",
+    description: "microservices-based task backend with event-driven notifications using RabbitMQ and Docker.",
+    image: microservice,
+    link: "https://github.com/Nikhileshmauje/task-management-microservice-backend",
+  },
+  {
     name: "Porfolio site",
     description: "To showcase my work, skills, education and Achievements",
     image: portfolio,
-    link: "https://github.com/your-github/wellnest",
+    link: "https://github.com/Nikhileshmauje/portfolio",
   },
   {
     name: "Gemini AI Web App",
