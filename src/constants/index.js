@@ -70,7 +70,7 @@ export const EDUCATION = [
     title: "G.H Raisoni College of Engineering, Nagpur",
     location: "Bachelor of Technology - Computer Science and Engineering",
     description: [
-      "Current CGPA: 8.41",
+      "Current CGPA: 8.34(Till 7th Semester)",
       "Achievement: Runner-up in college coding event CODE-O-QUICK",
     ],
   },
