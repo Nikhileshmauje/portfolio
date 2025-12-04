@@ -17,11 +17,11 @@ export const LINKS = [
 export const HERO_CONTENT = {
   greeting: "Hey there! 🖐️",
   introduction:
-    "I’m Nikhilesh Mauje, a creative full stack developer, crafting immersive and intuitive web experiences.",
+    "I’m Nikhilesh Mauje, an aspiring DevOps engineer building reliable and scalable systems.",
   description:
-    "I’m currently focused on enhancing my skills, building meaningful connections with like-minded individuals, and exploring opportunities to contribute to impactful digital solutions.",
+    "I’m currently exploring DevOps, containerization, CI/CD pipelines, and cloud fundamentals while building microservices and real-world automation projects. I love connecting with engineers, learning modern tooling, and contributing to impactful tech solutions.",
   resumeLinkText: "Download Resume",
-  resumeLink: "Nikhilesh Resume.pdf",
+  resumeLink: "Nikhilesh_DevOps.pdf",
 };
 
 export const PROJECTS = [
@@ -32,16 +32,10 @@ export const PROJECTS = [
     link: "https://github.com/your-github/wellnest",
   },
   {
-    name: "Gemini Clone App",
+    name: "Gemini AI Web App",
     description: "Gemini Clone which gives response to all users for their prompt",
     image: gemini,
     link: "https://github.com/Nikhileshmauje/Gemini-App",
-  },
-  {
-    name: "Keeper: Google Keep clone",
-    description: "Create and Delete notes, so you don't have to memorize things",
-    image: keeper,
-    link: "https://github.com/Nikhileshmauje/Keeper-App",
   },
   {
     name: "Weather App",
